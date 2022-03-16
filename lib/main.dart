@@ -20,11 +20,11 @@ class MyApp extends StatelessWidget {
             (i) => (i == 0)
                 ? const Todo(
                     'JOIN ROOM ',
-                    'A description of what needs to be done for Todo ',
+                    'Enter Code ',
                   )
                 : const Todo(
                     'CREATE ROOM',
-                    '....',
+                    'Name the room',
                   )),
       ),
     );
