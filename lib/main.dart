@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'todoscreen.dart';
-import 'todo.dart';
+import 'views/todoscreen.dart';
+import 'models/todo.dart';
 
 void main() {
   runApp(const MyApp());

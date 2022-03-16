@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'details.dart';
 
-import 'todo.dart';
+import '../models/todo.dart';
 
 class TodosScreen extends StatelessWidget {
   const TodosScreen({Key? key, required this.todos}) : super(key: key);
